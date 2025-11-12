@@ -1,0 +1,23 @@
+# Development files
+node_modules/
+src/
+*.ts
+!*.d.ts
+
+# Config files
+tsconfig.json
+.gitignore
+
+# Testing & CI
+*.test.js
+*.spec.js
+coverage/
+.vscode/
+
+# Build files
+*.log
+.DS_Store
+.env
+
+# Documentation (optional, uncomment if you don't want to include)
+# README.md
